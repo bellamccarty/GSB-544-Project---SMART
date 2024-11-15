@@ -6,4 +6,3 @@ Project for GSB 544 - Co-Contributors listed in below:
 ### **Bella McCarty (Arbitrator, Coach)**
 ### **Sneha Narayanan (Coordinator, Notetaker)**
 ### **Jenny Luu (Critic, Compromiser)**
-
