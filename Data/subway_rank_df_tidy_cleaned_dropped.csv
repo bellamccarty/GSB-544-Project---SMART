@@ -1,0 +1,426 @@
+﻿Station ID,Year,Station Name,Segment,Sector,Borough,Avg Weekday Ridership,Avg Weekend Ridership,Annual Ridership,Weekday Rank,Weekend Rank
+10,2023.0,"Wall St (2,3)",Broadway/7 Av (CBD),Downtown,Manhattan,12395,10788,3729954,76.0,112.0
+50,2023.0,Rector St (1),Broadway/7 Av (CBD),Downtown,Manhattan,4898,6620,1606245,209.0,181.0
+60,2023.0,WTC Cortlandt (1),Broadway/7 Av (CBD),Downtown,Manhattan,10218,13879,3358064,98.0,82.0
+70,2023.0,"Chambers St (1,2,3)",Broadway/7 Av (CBD),Downtown,Manhattan,12798,9934,3782605,70.0,130.0
+80,2023.0,Franklin St (1),Broadway/7 Av (CBD),Valley,Manhattan,4337,4222,1329726,227.0,248.0
+90,2023.0,Canal St (1),Broadway/7 Av (CBD),Valley,Manhattan,3595,4352,1148885,276.0,245.0
+100,2023.0,Houston St (1),Broadway/7 Av (CBD),Valley,Manhattan,8908,9033,2749660,112.0,140.0
+110,2023.0,Christopher St-Sheridan Sq (1),Broadway/7 Av (CBD),Valley,Manhattan,7965,14665,2817379,138.0,74.0
+130,2023.0,18 St (1),Broadway/7 Av (CBD),Valley,Manhattan,5607,7286,1813302,180.0,170.0
+140,2023.0,23 St (1),Broadway/7 Av (CBD),Valley,Manhattan,9477,13814,3154290,106.0,84.0
+150,2023.0,28 St (1),Broadway/7 Av (CBD),Valley,Manhattan,9576,11146,3038057,104.0,104.0
+160,2023.0,"34 St-Penn Station (1,2,3)",Broadway/7 Av (CBD),Midtown,Manhattan,47315,58440,15224047,8.0,9.0
+180,2023.0,50 St (1),Broadway/7 Av (CBD),Midtown,Manhattan,18190,23212,5893837,38.0,31.0
+200,2023.0,66 St-Lincoln Center (1),Broadway/7 Av (Non-CBD),Upper Manhattan,Manhattan,14897,18279,4771815,58.0,49.0
+210,2023.0,"72 St (1,2,3)",Broadway/7 Av (Non-CBD),Upper Manhattan,Manhattan,27088,40610,9086110,22.0,17.0
+220,2023.0,79 St (1),Broadway/7 Av (Non-CBD),Upper Manhattan,Manhattan,10651,14981,3519664,93.0,72.0
+230,2023.0,86 St. (1),Broadway/7 Av (Non-CBD),Upper Manhattan,Manhattan,12406,15280,3983729,74.0,69.0
+240,2023.0,"96 St (1,2,3)",Broadway/7 Av (Non-CBD),Upper Manhattan,Manhattan,24224,31319,7856393,23.0,24.0
+250,2023.0,103 St (1),Upper Broadway,Upper Manhattan,Manhattan,8775,12172,2892314,114.0,95.0
+260,2023.0,Cathedral Pkwy-110 St (1),Upper Broadway,Upper Manhattan,Manhattan,8721,12551,2898816,117.0,91.0
+270,2023.0,116 St-Columbia University (1),Upper Broadway,Upper Manhattan,Manhattan,11001,11511,3416295,88.0,100.0
+280,2023.0,125 St (1),Upper Broadway,Upper Manhattan,Manhattan,6175,7681,1986493,168.0,165.0
+290,2023.0,137 St-City College (1),Upper Broadway,Upper Manhattan,Manhattan,8428,11003,2738004,126.0,107.0
+300,2023.0,145 St (1),Upper Broadway,Upper Manhattan,Manhattan,6447,8438,2100654,162.0,149.0
+310,2023.0,157 St (1),Upper Broadway,Upper Manhattan,Manhattan,7148,8612,2288380,144.0,147.0
+330,2023.0,181 St (1),Upper Broadway,Upper Manhattan,Manhattan,7582,8934,2416958,141.0,143.0
+340,2023.0,191 St (1),Upper Broadway,Upper Manhattan,Manhattan,5348,5885,1682168,188.0,197.0
+350,2023.0,Dyckman St (1),Upper Broadway,Upper Manhattan,Manhattan,4704,5782,1512897,212.0,200.0
+360,2023.0,207 St (1),Upper Broadway,Upper Manhattan,Manhattan,4255,4956,1352957,233.0,227.0
+370,2023.0,215 St (1),Upper Broadway,Upper Manhattan,Manhattan,1485,1529,459810,396.0,375.0
+380,2023.0,Marble Hill-225 St (1),Upper Broadway,Upper Manhattan,Manhattan,3429,3574,1067679,284.0,274.0
+390,2023.0,231 St (1),Upper Broadway,Bronx,Bronx,6165,5977,1894047,169.0,193.0
+400,2023.0,238 St (1),Upper Broadway,Bronx,Bronx,3104,3141,959752,298.0,295.0
+410,2023.0,Van Cortlandt Park-242 St (1),Upper Broadway,Bronx,Bronx,4695,3972,1409910,213.0,261.0
+420,2023.0,"Central Park North-110 St (2,3)",Lenox Av,Upper Manhattan,Manhattan,4915,6397,1598022,207.0,188.0
+430,2023.0,"116 St (2,3)",Lenox Av,Upper Manhattan,Manhattan,6164,8260,2014762,170.0,153.0
+440,2023.0,"125 St (2,3)",Lenox Av,Upper Manhattan,Manhattan,8198,10850,2672981,135.0,110.0
+450,2023.0,"135 St (2,3)",Lenox Av,Upper Manhattan,Manhattan,6985,7858,2201400,149.0,158.0
+460,2023.0,145 St (3),Lenox Av,Upper Manhattan,Manhattan,1890,1745,574727,369.0,357.0
+470,2023.0,Harlem-148 St (3),Lenox Av,Upper Manhattan,Manhattan,2172,2350,679539,353.0,331.0
+480,2023.0,"Bowling Green (4,5)",Lexington Av (CBD),Downtown,Manhattan,14906,14337,4575586,57.0,77.0
+490,2023.0,"Wall St (4,5)",Lexington Av (CBD),Downtown,Manhattan,11163,10252,3393094,84.0,125.0
+530,2023.0,Spring St (6),Lexington Av (CBD),Valley,Manhattan,8253,16137,2969643,133.0,65.0
+550,2023.0,Astor Place (6),Lexington Av (CBD),Valley,Manhattan,11137,16518,3717074,85.0,62.0
+570,2023.0,23 St (6),Lexington Av (CBD),Valley,Manhattan,17987,15655,5409296,39.0,67.0
+580,2023.0,28 St (6),Lexington Av (CBD),Valley,Manhattan,13996,15251,4380514,63.0,70.0
+590,2023.0,33 St (6),Lexington Av (CBD),Midtown,Manhattan,18307,18727,5666586,37.0,47.0
+630,2023.0,68 St-Hunter College (6),Lexington Av (Non-CBD),Upper Manhattan,Manhattan,17986,11112,5164087,40.0,105.0
+640,2023.0,77 St (6),Lexington Av (Non-CBD),Upper Manhattan,Manhattan,20406,19372,6231273,30.0,44.0
+650,2023.0,"86 St. (4,5,6)",Lexington Av (Non-CBD),Upper Manhattan,Manhattan,32712,40016,10472358,16.0,19.0
+660,2023.0,96 St (6),Lexington Av (Non-CBD),Upper Manhattan,Manhattan,12647,10128,3760351,72.0,126.0
+670,2023.0,103 St (6),Lexington Av (Non-CBD),Upper Manhattan,Manhattan,8513,8060,2601308,122.0,156.0
+680,2023.0,110 St (6),Lexington Av (Non-CBD),Upper Manhattan,Manhattan,6704,7214,2096322,158.0,174.0
+690,2023.0,116 St (6),Lexington Av (Non-CBD),Upper Manhattan,Manhattan,8766,9877,2766817,115.0,131.0
+700,2023.0,"125 St (4,5,6)",Lexington Av (Non-CBD),Upper Manhattan,Manhattan,15497,17386,4884086,55.0,57.0
+710,2023.0,"138 St-Grand Concourse (4,5)",Jerome Av,Bronx,Bronx,2546,2550,785271,336.0,322.0
+740,2023.0,167 St (4),Jerome Av,Bronx,Bronx,5807,7819,1901393,175.0,160.0
+750,2023.0,170 St (4),Jerome Av,Bronx,Bronx,4495,5605,1448193,222.0,207.0
+760,2023.0,Mt Eden Av (4),Jerome Av,Bronx,Bronx,3106,3700,990912,297.0,269.0
+770,2023.0,176 St (4),Jerome Av,Bronx,Bronx,3230,4039,1041352,290.0,258.0
+780,2023.0,Burnside Av (4),Jerome Av,Bronx,Bronx,5773,7807,1891402,176.0,161.0
+790,2023.0,183 St (4),Jerome Av,Bronx,Bronx,3611,4973,1188844,275.0,226.0
+800,2023.0,Fordham Rd (4),Jerome Av,Bronx,Bronx,6716,10372,2269772,157.0,123.0
+810,2023.0,Kingsbridge Rd (4),Jerome Av,Bronx,Bronx,6045,7759,1958074,171.0,163.0
+820,2023.0,Bedford Park Blvd-Lehman College (4),Jerome Av,Bronx,Bronx,3634,4818,1182701,273.0,229.0
+830,2023.0,Mosholu Pkwy (4),Jerome Av,Bronx,Bronx,5394,6593,1728114,186.0,183.0
+840,2023.0,Woodlawn (4),Jerome Av,Bronx,Bronx,4228,4136,1299027,238.0,251.0
+860,2023.0,"3 Av-149 St (2,5)",White Plains Rd,Bronx,Bronx,10994,9959,3333256,89.0,129.0
+870,2023.0,"Jackson Av (2,5)",White Plains Rd,Bronx,Bronx,3066,2545,919324,303.0,324.0
+880,2023.0,"Prospect Av (2,5)",White Plains Rd,Bronx,Bronx,4136,3607,1248614,243.0,273.0
+890,2023.0,"Intervale Av (2,5)",White Plains Rd,Bronx,Bronx,1915,1710,580512,366.0,362.0
+900,2023.0,"Simpson St (2,5)",White Plains Rd,Bronx,Bronx,4374,4109,1336897,226.0,254.0
+910,2023.0,"Freeman St (2,5)",White Plains Rd,Bronx,Bronx,2690,2528,822237,327.0,325.0
+920,2023.0,"174 St (2,5)",White Plains Rd,Bronx,Bronx,3664,3425,1118781,271.0,278.0
+930,2023.0,"West Farms Sq-East Tremont Av (2,5)",White Plains Rd,Bronx,Bronx,3202,3357,997755,292.0,285.0
+940,2023.0,"East 180 St (2,5)",White Plains Rd,Bronx,Bronx,5459,5574,1690373,184.0,209.0
+950,2023.0,"Bronx Park East (2,5)",White Plains Rd,Bronx,Bronx,1516,1299,456352,393.0,385.0
+960,2023.0,"Pelham Pkwy (2,5)",White Plains Rd,Bronx,Bronx,5519,5205,1686103,182.0,221.0
+970,2023.0,"Allerton Av (2,5)",White Plains Rd,Bronx,Bronx,2836,2806,874229,315.0,309.0
+980,2023.0,"Burke Av (2,5)",White Plains Rd,Bronx,Bronx,1755,1587,532937,377.0,369.0
+990,2023.0,"Gun Hill Rd (2,5)",White Plains Rd,Bronx,Bronx,3897,4115,1214663,255.0,253.0
+1000,2023.0,"219 St (2,5)",White Plains Rd,Bronx,Bronx,1584,1603,490047,391.0,368.0
+1010,2023.0,"225 St (2,5)",White Plains Rd,Bronx,Bronx,1917,1872,589541,365.0,350.0
+1020,2023.0,"233 St (2,5)",White Plains Rd,Bronx,Bronx,2754,2654,845056,322.0,318.0
+1030,2023.0,"Nereid Av (2,5)",White Plains Rd,Bronx,Bronx,1948,1634,583996,360.0,365.0
+1040,2023.0,Wakefield-241 St (2),White Plains Rd,Bronx,Bronx,2544,2706,794723,337.0,314.0
+1050,2023.0,Morris Park (5),Dyre Av,Bronx,Bronx,1820,1097,521846,375.0,393.0
+1060,2023.0,Pelham Pkwy (5),Dyre Av,Bronx,Bronx,2014,977,564687,359.0,403.0
+1070,2023.0,Gun Hill Rd (5),Dyre Av,Bronx,Bronx,3189,2094,925025,294.0,338.0
+1080,2023.0,Baychester Av (5),Dyre Av,Bronx,Bronx,1875,1171,540493,371.0,389.0
+1090,2023.0,Eastchester-Dyre Av (5),Dyre Av,Bronx,Bronx,2576,1343,727475,334.0,384.0
+1100,2023.0,3 Av-138 St (6),Pelham,Bronx,Bronx,5708,5512,1750592,177.0,213.0
+1110,2023.0,Brook Av (6),Pelham,Bronx,Bronx,3540,3739,1104521,279.0,266.0
+1120,2023.0,Cypress Av (6),Pelham,Bronx,Bronx,1643,1533,501060,386.0,374.0
+1130,2023.0,East 143 St-St Mary's St (6),Pelham,Bronx,Bronx,890,519,254155,414.0,415.0
+1140,2023.0,East 149 St (6),Pelham,Bronx,Bronx,3100,3263,966053,299.0,289.0
+1150,2023.0,Longwood Av (6),Pelham,Bronx,Bronx,2258,2067,686670,351.0,341.0
+1160,2023.0,Hunts Point Av (6),Pelham,Bronx,Bronx,6976,6753,2140557,150.0,178.0
+1170,2023.0,Whitlock Av (6),Pelham,Bronx,Bronx,1250,1248,385838,404.0,388.0
+1180,2023.0,Elder Av (6),Pelham,Bronx,Bronx,3846,4319,1214084,260.0,246.0
+1190,2023.0,Morrison Av-Soundview (6),Pelham,Bronx,Bronx,3930,4074,1221900,253.0,256.0
+1200,2023.0,St. Lawrence Ave. (6),Pelham,Bronx,Bronx,2590,2891,816020,332.0,304.0
+1210,2023.0,Parkchester (6),Pelham,Bronx,Bronx,10497,11571,3295956,96.0,99.0
+1220,2023.0,Castle Hill Av (6),Pelham,Bronx,Bronx,3619,2367,1051526,274.0,330.0
+1230,2023.0,Zerega Av (6),Pelham,Bronx,Bronx,1760,1044,504725,376.0,401.0
+1240,2023.0,Westchester Sq-East Tremont Av (6),Pelham,Bronx,Bronx,2685,1654,773043,328.0,364.0
+1250,2023.0,Middletown Rd (6),Pelham,Bronx,Bronx,1416,780,401976,398.0,409.0
+1260,2023.0,Buhre Av (6),Pelham,Bronx,Bronx,2616,1726,758972,329.0,360.0
+1270,2023.0,Pelham Bay Park (6),Pelham,Bronx,Bronx,3863,3642,1180813,257.0,271.0
+1275,2023.0,34 St-Hudson Yards (7),Flushing (Manhattan),Midtown,Manhattan,17443,19066,5494067,44.0,45.0
+1340,2023.0,"Rector St (R,W)",Broadway-60 St,Downtown,Manhattan,3719,3354,1127341,267.0,286.0
+1360,2023.0,"City Hall (R,W)",Broadway-60 St,Downtown,Manhattan,3842,2987,1138401,261.0,300.0
+1380,2023.0,"Prince St (R,W)",Broadway-60 St,Valley,Manhattan,8363,18482,3128710,128.0,48.0
+1390,2023.0,"8 St-New York University (R,W)",Broadway-60 St,Valley,Manhattan,11078,17903,3780675,87.0,51.0
+1410,2023.0,"23 St (R,W)",Broadway-60 St,Valley,Manhattan,12955,17875,4260867,69.0,52.0
+1420,2023.0,"28 St (R,W)",Broadway-60 St,Valley,Manhattan,8039,12403,2717163,136.0,92.0
+1450,2023.0,"49 St (N,R,W)",Broadway-60 St,Midtown,Manhattan,16368,25726,5566042,51.0,28.0
+1460,2023.0,"57 St-7 Av (N,Q,R,W)",Broadway-60 St,Midtown,Manhattan,23422,33612,7787658,26.0,23.0
+1470,2023.0,"5 Av-59 St (N,R,W)",Broadway-60 St,Midtown,Manhattan,10589,14244,3485505,94.0,80.0
+1482,2023.0,72 St (Q),2 Av,Midtown,Manhattan,21191,20341,6478996,27.0,42.0
+1483,2023.0,86 St (Q),2 Av,Midtown,Manhattan,16639,22534,5443029,48.0,34.0
+1484,2023.0,96 St (Q),2 Av,Midtown,Manhattan,12093,14026,3832205,77.0,81.0
+1490,2023.0,"Broad St (J,Z)",Nassau St,Downtown,Manhattan,3982,3705,1214353,250.0,268.0
+1530,2023.0,"Bowery (J,Z)",Nassau St,Valley,Manhattan,2441,4888,887619,344.0,228.0
+1580,2023.0,3 Av (L),14 St,Valley,Manhattan,4544,7539,1564084,219.0,167.0
+1590,2023.0,1 Av (L),14 St,Valley,Manhattan,17338,24593,5745700,45.0,29.0
+1600,2023.0,"Grand St (B,D)",6 Av,Valley,Manhattan,17686,24196,5821650,43.0,30.0
+1610,2023.0,East Broadway (F),6 Av,Valley,Manhattan,11083,16775,3729749,86.0,60.0
+1630,2023.0,2 Av (F),6 Av,Valley,Manhattan,11660,22844,4192759,82.0,33.0
+1670,2023.0,"23 St (F,M)",6 Av,Valley,Manhattan,17867,16386,5423352,41.0,64.0
+1700,2023.0,"47-50 Sts-Rockefeller Center (B,D,F,M)",6 Av,Midtown,Manhattan,38077,30907,11387612,12.0,25.0
+1740,2023.0,"Canal St (A,C,E)",8 Av,Valley,Manhattan,12596,13840,3950546,73.0,83.0
+1750,2023.0,"Spring St (C,E)",8 Av,Valley,Manhattan,9575,9434,2941927,105.0,135.0
+1780,2023.0,"23 St (C,E)",8 Av,Valley,Manhattan,14132,14501,4370344,62.0,75.0
+1790,2023.0,"34 St-Penn Station (A,C,E)",8 Av,Midtown,Manhattan,52563,65996,16974543,6.0,5.0
+1810,2023.0,"50 St (C,E)",8 Av,Midtown,Manhattan,14477,21725,4857531,60.0,38.0
+1820,2023.0,"7 Av (B,D,E)",53 St,Midtown,Manhattan,12405,13542,3892682,75.0,87.0
+1830,2023.0,"5 Av-53 St (E,M)",53 St,Midtown,Manhattan,16224,11209,4733296,53.0,102.0
+1850,2023.0,57 St (F),63 St,Midtown,Manhattan,8302,8772,2582091,131.0,145.0
+1870,2023.0,Roosevelt Island (F),63 St,Upper Manhattan,Manhattan,5078,7273,1686544,197.0,172.0
+1890,2023.0,"72 St (B,C)",8 Av/Central Pk W,Upper Manhattan,Manhattan,6968,10442,2343378,151.0,120.0
+1900,2023.0,"81 St-Museum of Natural History (B,C)",8 Av/Central Pk W,Upper Manhattan,Manhattan,10165,17422,3531009,99.0,56.0
+1910,2023.0,"86 St. (B,C)",8 Av/Central Pk W,Upper Manhattan,Manhattan,7976,8473,2486809,137.0,148.0
+1920,2023.0,"96 St (B,C)",8 Av/Central Pk W,Upper Manhattan,Manhattan,6986,6611,2133657,148.0,182.0
+1930,2023.0,"103 St (B,C)",8 Av/Central Pk W,Upper Manhattan,Manhattan,3204,4011,1033211,291.0,259.0
+1940,2023.0,"Cathedral Pkwy-110 St (B,C)",8 Av/Central Pk W,Upper Manhattan,Manhattan,5217,6592,1684290,192.0,184.0
+1950,2023.0,"116 St (B,C)",8 Av/Central Pk W,Upper Manhattan,Manhattan,4555,5582,1459488,218.0,208.0
+1960,2023.0,"125 St (A,B,C,D)",8 Av/Central Pk W,Upper Manhattan,Manhattan,17239,21409,5543346,46.0,39.0
+1970,2023.0,"135 St (B,C)",8 Av/Central Pk W,Upper Manhattan,Manhattan,3563,3287,1083148,278.0,288.0
+1980,2023.0,"145 St (A,B,C,D)",8 Av/Central Pk W,Upper Manhattan,Manhattan,14613,17789,4678774,59.0,53.0
+1990,2023.0,155 St (C),Washington Heights,Upper Manhattan,Manhattan,1644,2242,539511,385.0,333.0
+2000,2023.0,163 St-Amsterdam Av (C),Washington Heights,Upper Manhattan,Manhattan,2583,3376,840255,333.0,283.0
+2020,2023.0,175 St (A),Washington Heights,Upper Manhattan,Manhattan,7326,7294,2258838,143.0,169.0
+2030,2023.0,181 St (A),Washington Heights,Upper Manhattan,Manhattan,5646,5844,1751997,179.0,199.0
+2040,2023.0,190 St (A),Washington Heights,Upper Manhattan,Manhattan,3081,3129,951786,302.0,296.0
+2050,2023.0,Dyckman St (A),Washington Heights,Upper Manhattan,Manhattan,4145,4685,1306098,240.0,234.0
+2060,2023.0,Inwood-207 St (A),Washington Heights,Upper Manhattan,Manhattan,5181,5882,1632951,194.0,198.0
+2070,2023.0,"155 St (B,D)",Concourse,Upper Manhattan,Manhattan,1920,1771,585619,363.0,355.0
+2090,2023.0,"167 St (B,D)",Concourse,Bronx,Bronx,4926,2833,1411144,206.0,306.0
+2100,2023.0,"170 St (B,D)",Concourse,Bronx,Bronx,3529,1843,1001022,280.0,354.0
+2110,2023.0,"174-175 Sts (B,D)",Concourse,Bronx,Bronx,2746,1352,774167,324.0,383.0
+2120,2023.0,"Tremont Av (B,D)",Concourse,Bronx,Bronx,4238,2028,1192367,236.0,342.0
+2130,2023.0,"182-183 Sts (B,D)",Concourse,Bronx,Bronx,2893,1585,824845,313.0,370.0
+2140,2023.0,"Fordham Rd (B,D)",Concourse,Bronx,Bronx,6533,3245,1842281,160.0,293.0
+2150,2023.0,"Kingsbridge Rd (B,D)",Concourse,Bronx,Bronx,4060,1939,1140981,246.0,347.0
+2160,2023.0,"Bedford Park Blvd (B,D)",Concourse,Bronx,Bronx,4139,2068,1166942,242.0,340.0
+2170,2023.0,Norwood-205 St (D),Concourse,Bronx,Bronx,4255,2025,1196666,233.0,343.0
+2175,2023.0,"South Ferry (1)/Whitehall St (R,W)",Manhattan CBD Transfer,Downtown,Manhattan,18765,22231,5995305,36.0,35.0
+2180,2023.0,"Fulton St (A,C,J,Z,2,3,4,5)",Manhattan CBD Transfer,Downtown,Manhattan,57533,59967,17887203,5.0,7.0
+2190,2023.0,"Chambers St (A,C)/WTC (E)/Park Place (2,3)/Cortlandt (R,W)",Manhattan CBD Transfer,Downtown,Manhattan,40703,35944,12298422,11.0,21.0
+2200,2023.0,"Brooklyn Bridge-City Hall (4,5,6)/Chambers St (J,Z)",Manhattan CBD Transfer,Downtown,Manhattan,19361,17568,5881022,34.0,55.0
+2210,2023.0,"Canal St (J,N,Q,R,W,Z,6)",Manhattan CBD Transfer,Valley,Manhattan,30763,49543,10521747,18.0,11.0
+2220,2023.0,"Delancey St (F)/Essex St (J,M,Z)",Manhattan CBD Transfer,Valley,Manhattan,20608,34260,7083681,29.0,22.0
+2230,2023.0,"Broadway-Lafayette St (B,D,F,M)/Bleecker St (6)",Manhattan CBD Transfer,Valley,Manhattan,27303,43350,9268403,21.0,16.0
+2240,2023.0,"West 4 St-Washington Sq (A,B,C,D,E,F,M)",Manhattan CBD Transfer,Valley,Manhattan,29048,48747,10011362,20.0,12.0
+2250,2023.0,"14 St (A,C,E)/8 Av (L)",Manhattan CBD Transfer,Valley,Manhattan,32462,48184,10863467,17.0,13.0
+2260,2023.0,"14 St (F,M,1,2,3)/6 Av (L)",Manhattan CBD Transfer,Valley,Manhattan,34811,45938,11328347,15.0,14.0
+2270,2023.0,"14 St-Union Sq (L,N,Q,R,W,4,5,6)",Manhattan CBD Transfer,Valley,Manhattan,65104,92659,21527757,4.0,4.0
+2280,2023.0,"34 St-Herald Sq (B,D,F,M,N,Q,R,W)",Manhattan CBD Transfer,Midtown,Manhattan,72890,94337,23680977,3.0,3.0
+2290,2023.0,"Times Sq-42 St (N,Q,R,S,W,1,2,3,7)/42 St (A,C,E)/Bryant Pk (B,D,F,M)/5 Av (7)",Manhattan CBD Transfer,Midtown,Manhattan,167487,213708,54266441,1.0,1.0
+2310,2023.0,"Grand Central-42 St (S,4,5,6,7)",Manhattan CBD Transfer,Midtown,Manhattan,99308,96775,30517475,2.0,2.0
+2320,2023.0,"Lexington Av-53 St (E,M)/51 St (6)",Manhattan CBD Transfer,Midtown,Manhattan,38077,30762,11339465,12.0,26.0
+2330,2023.0,"59 St-Columbus Circle (A,B,C,D,1)",Manhattan CBD Transfer,Midtown,Manhattan,48661,63818,15842348,7.0,6.0
+2340,2023.0,"Lexington Av (N,Q,R)/59 St (4,5,6)",Manhattan CBD Transfer,Midtown,Manhattan,37615,39358,11691818,14.0,20.0
+2345,2023.0,"Lexington Av-63 St (F,Q)",Manhattan CBD Transfer,Midtown,Manhattan,11945,13060,3736349,79.0,89.0
+2350,2023.0,"168 St (A,C,1)",Upper Manhattan/Bronx Transfer,Upper Manhattan,Manhattan,16523,17753,5161102,50.0,54.0
+2360,2023.0,"149 St-Grand Concourse (2,4,5)",Upper Manhattan/Bronx Transfer,Bronx,Bronx,6789,6683,2087779,154.0,180.0
+2370,2023.0,"161 St-Yankee Stadium (B,D,4)",Upper Manhattan/Bronx Transfer,Bronx,Bronx,16043,22932,5316351,54.0,32.0
+2380,2023.0,New Lots Av (3),New Lots,Other Brooklyn,Brooklyn,3495,3251,1066391,281.0,291.0
+2390,2023.0,Van Siclen Av (3),New Lots,Other Brooklyn,Brooklyn,1616,1485,491980,387.0,376.0
+2400,2023.0,Pennsylvania Av (3),New Lots,Other Brooklyn,Brooklyn,2818,2788,868432,317.0,311.0
+2410,2023.0,Junius St (3),New Lots,Other Brooklyn,Brooklyn,1567,1632,487780,392.0,366.0
+2420,2023.0,Rockaway Av (3),New Lots,Other Brooklyn,Brooklyn,2751,2547,838719,323.0,323.0
+2430,2023.0,Saratoga Av (3),New Lots,Other Brooklyn,Brooklyn,3122,2696,941203,295.0,315.0
+2440,2023.0,Sutter Av-Rutland Rd (3),New Lots,Other Brooklyn,Brooklyn,4178,3857,1272857,239.0,263.0
+2450,2023.0,"Crown Heights-Utica Av (3,4)",New Lots,Other Brooklyn,Brooklyn,16318,16944,5071387,52.0,59.0
+2460,2023.0,Kingston Av (3),New Lots,Other Brooklyn,Brooklyn,3233,3513,1017521,289.0,277.0
+2470,2023.0,Nostrand Av (3),New Lots,Other Brooklyn,Brooklyn,2512,3090,809205,340.0,298.0
+2480,2023.0,"Flatbush Av-Brooklyn College (2,5)",Nostrand Av,Other Brooklyn,Brooklyn,11967,10287,3601151,78.0,124.0
+2490,2023.0,"Newkirk Av (2,5)",Nostrand Av,Other Brooklyn,Brooklyn,4638,4542,1426266,216.0,240.0
+2500,2023.0,"Beverly Rd (2,5)",Nostrand Av,Other Brooklyn,Brooklyn,3044,3255,951520,304.0,290.0
+2510,2023.0,"Church Av (2,5)",Nostrand Av,Other Brooklyn,Brooklyn,6201,6828,1947722,166.0,177.0
+2520,2023.0,"Winthrop St (2,5)",Nostrand Av,Other Brooklyn,Brooklyn,5379,4816,1628419,187.0,230.0
+2530,2023.0,"Sterling St. (2,5)",Nostrand Av,Other Brooklyn,Brooklyn,3910,4275,1227426,254.0,247.0
+2540,2023.0,"President St (2,5)",Nostrand Av,Other Brooklyn,Brooklyn,2450,2173,742431,343.0,336.0
+2560,2023.0,"Eastern Pkwy-Brooklyn Museum (2,3)",Eastern Pkwy,Other Brooklyn,Brooklyn,3198,5893,1125810,293.0,196.0
+2570,2023.0,"Grand Army Plaza (2,3)",Eastern Pkwy,Other Brooklyn,Brooklyn,5055,6749,1653318,198.0,179.0
+2580,2023.0,"Bergen St (2,3)",Eastern Pkwy,Other Brooklyn,Brooklyn,3009,4194,990992,308.0,249.0
+2600,2023.0,"Nevins St (2,3,4,5)",Eastern Pkwy,Brooklyn CBD,Brooklyn,6665,8193,2136592,159.0,154.0
+2610,2023.0,"Hoyt St (2,3)",Eastern Pkwy,Brooklyn CBD,Brooklyn,5087,6962,1666303,196.0,176.0
+2630,2023.0,"Clark St (2,3)",Eastern Pkwy,Other Brooklyn,Brooklyn,4481,7648,1554195,223.0,166.0
+2640,2023.0,Bay Ridge-95 St (R),4 Av,Other Brooklyn,Brooklyn,3829,3736,1176225,263.0,267.0
+2650,2023.0,86 St. (R),4 Av,Other Brooklyn,Brooklyn,8488,8743,2636985,124.0,146.0
+2660,2023.0,77 St (R),4 Av,Other Brooklyn,Brooklyn,3849,3988,1194631,258.0,260.0
+2670,2023.0,Bay Ridge Av (R),4 Av,Other Brooklyn,Brooklyn,5690,6220,1784703,178.0,190.0
+2680,2023.0,"59 St (N,R)",4 Av,Other Brooklyn,Brooklyn,9087,9998,2855080,110.0,128.0
+2690,2023.0,53 St (R),4 Av,Other Brooklyn,Brooklyn,6384,7257,2018914,163.0,173.0
+2700,2023.0,45 St (R),4 Av,Other Brooklyn,Brooklyn,5886,7128,1884446,173.0,175.0
+2710,2023.0,"36 St (D,N,R)",4 Av,Other Brooklyn,Brooklyn,10764,13373,3458960,91.0,88.0
+2720,2023.0,25 St (R),4 Av,Other Brooklyn,Brooklyn,2613,2911,822024,330.0,303.0
+2730,2023.0,Prospect Av (R),4 Av,Other Brooklyn,Brooklyn,4237,4133,1299538,237.0,252.0
+2750,2023.0,Union St (R),4 Av,Other Brooklyn,Brooklyn,5142,6338,1646253,195.0,189.0
+2790,2023.0,86 St. (N),Sea Beach,Other Brooklyn,Brooklyn,1728,2189,557808,379.0,335.0
+2800,2023.0,Avenue U (N),Sea Beach,Other Brooklyn,Brooklyn,2725,3414,877440,325.0,280.0
+2810,2023.0,Kings Hwy (N),Sea Beach,Other Brooklyn,Brooklyn,3873,4791,1247257,256.0,232.0
+2820,2023.0,Bay Pkwy (N),Sea Beach,Other Brooklyn,Brooklyn,4977,6019,1594271,205.0,192.0
+2830,2023.0,20 Av (N),Sea Beach,Other Brooklyn,Brooklyn,3018,2987,931058,306.0,300.0
+2840,2023.0,18 Av (N),Sea Beach,Other Brooklyn,Brooklyn,3682,4651,1190431,269.0,236.0
+2860,2023.0,Fort Hamilton Pkwy (N),Sea Beach,Other Brooklyn,Brooklyn,4893,5206,1530067,210.0,220.0
+2870,2023.0,8 Av (N),Sea Beach,Other Brooklyn,Brooklyn,7895,10033,2561457,139.0,127.0
+2890,2023.0,Bay 50 St (D),West End,Other Brooklyn,Brooklyn,1865,1859,575901,372.0,352.0
+2900,2023.0,25 Av (D),West End,Other Brooklyn,Brooklyn,3031,3246,948677,305.0,292.0
+2910,2023.0,Bay Pkwy (D),West End,Other Brooklyn,Brooklyn,5472,5895,1714685,183.0,195.0
+2920,2023.0,20 Av (D),West End,Other Brooklyn,Brooklyn,3571,3969,1125752,277.0,262.0
+2930,2023.0,18 Av (D),West End,Other Brooklyn,Brooklyn,4279,4531,1336402,231.0,241.0
+2940,2023.0,79 St (D),West End,Other Brooklyn,Brooklyn,4252,4173,1311172,235.0,250.0
+2950,2023.0,71 St (D),West End,Other Brooklyn,Brooklyn,3396,3749,1069576,286.0,265.0
+2970,2023.0,55 St (D),West End,Other Brooklyn,Brooklyn,1393,1138,418218,400.0,391.0
+2980,2023.0,50 St (D),West End,Other Brooklyn,Brooklyn,2501,2102,753338,341.0,337.0
+2990,2023.0,Fort Hamilton Pkwy (D),West End,Other Brooklyn,Brooklyn,2866,2618,873254,314.0,320.0
+3000,2023.0,9 Av (D),West End,Other Brooklyn,Brooklyn,3993,4513,1263578,248.0,242.0
+3030,2023.0,Ocean Pkwy (Q),Brighton,Other Brooklyn,Brooklyn,2315,2819,744994,349.0,308.0
+3040,2023.0,"Brighton Beach (B,Q)",Brighton,Other Brooklyn,Brooklyn,8299,9482,2635382,132.0,134.0
+3050,2023.0,"Sheepshead Bay (B,Q)",Brighton,Other Brooklyn,Brooklyn,9420,7794,2821135,107.0,162.0
+3060,2023.0,Neck Rd (Q),Brighton,Other Brooklyn,Brooklyn,3098,3069,956059,300.0,299.0
+3070,2023.0,Avenue U (Q),Brighton,Other Brooklyn,Brooklyn,5055,5528,1589246,198.0,212.0
+3080,2023.0,"Kings Hwy (B,Q)",Brighton,Other Brooklyn,Brooklyn,14143,11827,4244252,61.0,98.0
+3090,2023.0,Avenue M (Q),Brighton,Other Brooklyn,Brooklyn,3987,3568,1211324,249.0,275.0
+3100,2023.0,Avenue J (Q),Brighton,Other Brooklyn,Brooklyn,3809,3620,1169052,265.0,272.0
+3110,2023.0,Avenue H (Q),Brighton,Other Brooklyn,Brooklyn,2141,1872,646824,354.0,350.0
+3120,2023.0,"Newkirk Plaza (B,Q)",Brighton,Other Brooklyn,Brooklyn,7134,6509,2170621,145.0,186.0
+3130,2023.0,Cortelyou Rd (Q),Brighton,Other Brooklyn,Brooklyn,4098,4640,1296344,245.0,237.0
+3140,2023.0,Beverley Rd (Q),Brighton,Other Brooklyn,Brooklyn,2528,2790,795709,339.0,310.0
+3150,2023.0,"Church Av (B,Q)",Brighton,Other Brooklyn,Brooklyn,10537,9429,3194658,95.0,136.0
+3160,2023.0,Parkside Av (Q),Brighton,Other Brooklyn,Brooklyn,4102,5558,1348897,244.0,210.0
+3180,2023.0,"7 Av (B,Q)",Brighton,Other Brooklyn,Brooklyn,7104,6529,2160144,146.0,185.0
+3230,2023.0,Park Pl (S),Franklin Av,Other Brooklyn,Brooklyn,1090,1297,348208,410.0,386.0
+3290,2023.0,Neptune Av (F),Culver,Other Brooklyn,Brooklyn,1178,392,320508,407.0,420.0
+3300,2023.0,Avenue X (F),Culver,Other Brooklyn,Brooklyn,1744,664,479429,378.0,410.0
+3310,2023.0,Avenue U (F),Culver,Other Brooklyn,Brooklyn,1385,632,386152,401.0,411.0
+3320,2023.0,Kings Hwy (F),Culver,Other Brooklyn,Brooklyn,2422,1701,711229,345.0,363.0
+3330,2023.0,Avenue P (F),Culver,Other Brooklyn,Brooklyn,1888,1045,538576,370.0,400.0
+3340,2023.0,Avenue N (F),Culver,Other Brooklyn,Brooklyn,2120,1093,600279,355.0,394.0
+3350,2023.0,Bay Pkwy (F),Culver,Other Brooklyn,Brooklyn,986,527,279620,413.0,414.0
+3360,2023.0,Avenue I (F),Culver,Other Brooklyn,Brooklyn,1359,632,381174,402.0,411.0
+3370,2023.0,18 Av (F),Culver,Other Brooklyn,Brooklyn,2531,1434,724074,338.0,378.0
+3380,2023.0,Ditmas Av (F),Culver,Other Brooklyn,Brooklyn,3007,1481,848061,309.0,377.0
+3390,2023.0,"Church Av (F,G)",Culver,Other Brooklyn,Brooklyn,6312,8392,2060505,165.0,150.0
+3400,2023.0,"Fort Hamilton Pkwy (F,G)",Culver,Other Brooklyn,Brooklyn,4259,4813,1341506,232.0,231.0
+3410,2023.0,"15 St-Prospect Park (F,G)",Culver,Other Brooklyn,Brooklyn,4292,5531,1390166,230.0,211.0
+3420,2023.0,"7 Av (F,G)",Culver,Other Brooklyn,Brooklyn,8510,9762,2688069,123.0,132.0
+3440,2023.0,"Smith-9 Sts (F,G)",Culver,Other Brooklyn,Brooklyn,3084,3407,968460,301.0,281.0
+3450,2023.0,"Carroll St (F,G)",Culver,Other Brooklyn,Brooklyn,8432,8971,2625017,125.0,141.0
+3460,2023.0,"Bergen St (F,G)",Culver,Other Brooklyn,Brooklyn,8349,10775,2701492,129.0,113.0
+3480,2023.0,York St (F),Culver,Other Brooklyn,Brooklyn,9633,16452,3345474,102.0,63.0
+3490,2023.0,"Rockaway Park-Beach 116 St (A,S)",Rockaway,Queens,Queens,400,540,132504,420.0,413.0
+3500,2023.0,"Beach 105 St (A,S)",Rockaway,Queens,Queens,172,325,62878,423.0,422.0
+3510,2023.0,"Beach 98 St (A,S)",Rockaway,Queens,Queens,293,405,97689,421.0,419.0
+3520,2023.0,"Beach 90 St (A,S)",Rockaway,Queens,Queens,472,919,172663,418.0,404.0
+3530,2023.0,Far Rockaway-Mott Av (A),Rockaway,Queens,Queens,2817,2473,852781,318.0,328.0
+3540,2023.0,Beach 25 St (A),Rockaway,Queens,Queens,1071,840,318542,411.0,406.0
+3550,2023.0,Beach 36 St (A),Rockaway,Queens,Queens,563,494,170361,415.0,417.0
+3560,2023.0,Beach 44 St (A),Rockaway,Queens,Queens,462,409,140167,419.0,418.0
+3570,2023.0,Beach 60 St (A),Rockaway,Queens,Queens,1170,1050,355668,408.0,399.0
+3580,2023.0,Beach 67 St-Arverne By The Sea (A),Rockaway,Queens,Queens,1486,1729,474975,395.0,359.0
+3590,2023.0,"Broad Channel (A,S)",Rockaway,Queens,Queens,179,123,52378,422.0,423.0
+3600,2023.0,Howard Beach-JFK Airport (A),Rockaway,Queens,Queens,2455,3644,826955,342.0,270.0
+3610,2023.0,Aqueduct-North Conduit Av (A),Rockaway,Queens,Queens,558,376,162584,416.0,421.0
+3620,2023.0,Aqueduct Racetrack (A),Rockaway,Queens,Queens,557,1088,202474,417.0,395.0
+3630,2023.0,Ozone Park-Lefferts Blvd (A),Lefferts Blvd,Queens,Queens,4330,3377,1285335,228.0,282.0
+3640,2023.0,111 St (A),Lefferts Blvd,Queens,Queens,1589,1144,466344,389.0,390.0
+3650,2023.0,104 St (A),Lefferts Blvd,Queens,Queens,1235,906,363436,405.0,405.0
+3660,2023.0,Rockaway Blvd (A),Fulton St,Queens,Queens,4983,4629,1519523,203.0,238.0
+3670,2023.0,88 St (A),Fulton St,Queens,Queens,1935,1551,576816,361.0,373.0
+3680,2023.0,80 St (A),Fulton St,Queens,Queens,2961,2659,898594,310.0,317.0
+3690,2023.0,Grant Av (A),Fulton St,Other Brooklyn,Brooklyn,3839,3518,1169287,262.0,276.0
+3700,2023.0,"Euclid Av (A,C)",Fulton St,Other Brooklyn,Brooklyn,6777,7827,2146235,155.0,159.0
+3710,2023.0,Shepherd Av (C),Fulton St,Other Brooklyn,Brooklyn,1831,1731,559941,374.0,358.0
+3720,2023.0,Van Siclen Av (C),Fulton St,Other Brooklyn,Brooklyn,1701,1711,525801,381.0,361.0
+3730,2023.0,Liberty Av (C),Fulton St,Other Brooklyn,Brooklyn,1661,1379,497050,383.0,380.0
+3750,2023.0,Rockaway Av (C),Fulton St,Other Brooklyn,Brooklyn,3433,3802,1079621,283.0,264.0
+3760,2023.0,Ralph Av (C),Fulton St,Other Brooklyn,Brooklyn,3356,4052,1073687,287.0,257.0
+3770,2023.0,"Utica Av (A,C)",Fulton St,Other Brooklyn,Brooklyn,9083,11023,2907120,111.0,106.0
+3780,2023.0,Kingston-Throop Avs (C),Fulton St,Other Brooklyn,Brooklyn,4470,5673,1444252,224.0,204.0
+3790,2023.0,"Nostrand Av (A,C)",Fulton St,Other Brooklyn,Brooklyn,11753,14381,3768205,80.0,76.0
+3810,2023.0,Clinton-Washington Avs (C),Fulton St,Other Brooklyn,Brooklyn,4998,5903,1587595,202.0,194.0
+3820,2023.0,Lafayette Av (C),Fulton St,Other Brooklyn,Brooklyn,3711,5720,1252720,268.0,202.0
+3850,2023.0,"High St (A,C)",Fulton St,Other Brooklyn,Brooklyn,6859,8954,2247144,153.0,142.0
+3870,2023.0,Fulton St (G),Crosstown,Other Brooklyn,Brooklyn,4656,6494,1534593,215.0,187.0
+3880,2023.0,Clinton-Washington Avs (G),Crosstown,Other Brooklyn,Brooklyn,3968,4746,1263928,252.0,233.0
+3890,2023.0,Classon Av (G),Crosstown,Other Brooklyn,Brooklyn,4141,5354,1342389,241.0,215.0
+3900,2023.0,Bedford-Nostrand Avs (G),Crosstown,Other Brooklyn,Brooklyn,6027,8380,1985142,172.0,151.0
+3910,2023.0,Myrtle-Willoughby Avs (G),Crosstown,Other Brooklyn,Brooklyn,3977,4658,1265040,251.0,235.0
+3920,2023.0,Flushing Av (G),Crosstown,Other Brooklyn,Brooklyn,2416,2080,729349,346.0,339.0
+3930,2023.0,Broadway (G),Crosstown,Other Brooklyn,Brooklyn,3420,4446,1112371,285.0,244.0
+3950,2023.0,Nassau Av (G),Crosstown,Other Brooklyn,Brooklyn,6888,10524,2320186,152.0,117.0
+3960,2023.0,Greenpoint Av (G),Crosstown,Other Brooklyn,Brooklyn,7672,9284,2457616,140.0,137.0
+3970,2023.0,21 St (G),Crosstown,Queens,Queens,1350,1905,448606,403.0,349.0
+3990,2023.0,21 St-Queensbridge (F),Queens Blvd.,Queens,Queens,5012,5661,1579379,200.0,205.0
+4010,2023.0,"Queens Plaza (E,M,R)",Queens Blvd,Queens,Queens,11616,12829,3645653,83.0,90.0
+4020,2023.0,"36 St (M,R)",Queens Blvd,Queens,Queens,2611,1954,769239,331.0,346.0
+4030,2023.0,"Steinway St. (M,R)",Queens Blvd,Queens,Queens,8528,10380,2730057,121.0,122.0
+4040,2023.0,"46 St (M,R)",Queens Blvd,Queens,Queens,5332,5640,1662115,189.0,206.0
+4050,2023.0,"Northern Blvd (M,R)",Queens Blvd,Queens,Queens,4631,4097,1400392,217.0,255.0
+4060,2023.0,"65 St (M,R)",Queens Blvd,Queens,Queens,2348,2432,729908,348.0,329.0
+4080,2023.0,"Elmhurst Av (M,R)",Queens Blvd,Queens,Queens,8563,9116,2676734,120.0,139.0
+4090,2023.0,"Grand Av-Newtown (M,R)",Queens Blvd,Queens,Queens,12662,12357,3893242,71.0,93.0
+4100,2023.0,"Woodhaven Blvd (M,R)",Queens Blvd,Queens,Queens,13596,14303,4237180,66.0,79.0
+4110,2023.0,"63 Dr-Rego Park (M,R)",Queens Blvd,Queens,Queens,9889,9563,3033839,101.0,133.0
+4120,2023.0,"67 Av (M,R)",Queens Blvd,Queens,Queens,5540,4607,1658341,181.0,239.0
+4130,2023.0,"Forest Hills-71 Av (E,F,M,R)",Queens Blvd,Queens,Queens,17846,18047,5509732,42.0,50.0
+4140,2023.0,"75 Av (E,F)",Queens Blvd,Queens,Queens,2221,2201,683707,352.0,334.0
+4150,2023.0,"Kew Gardens-Union Turnpike (E,F)",Queens Blvd,Queens,Queens,16603,14752,5016215,49.0,73.0
+4160,2023.0,"Briarwood-Van Wyck Blvd (E,F)",Queens Blvd,Queens,Queens,3443,3153,1046884,282.0,294.0
+4170,2023.0,Sutphin Blvd (F),Queens Blvd,Queens,Queens,2834,2977,882617,316.0,302.0
+4180,2023.0,Parsons Blvd (F),Queens Blvd,Queens,Queens,5008,5750,1584984,201.0,201.0
+4190,2023.0,169 St (F),Queens Blvd,Queens,Queens,5298,5139,1627817,190.0,222.0
+4200,2023.0,Jamaica-179 St (F),Queens Blvd,Queens,Queens,13279,10490,3944828,67.0,118.0
+4210,2023.0,Jamaica-Van Wyck (E),Queens Blvd,Queens,Queens,3260,3375,1010728,288.0,284.0
+4260,2023.0,"121 St (J,Z)",Jamaica,Queens,Queens,1658,984,476966,384.0,402.0
+4270,2023.0,111 St (J),Jamaica,Queens,Queens,1603,816,453695,388.0,407.0
+4280,2023.0,"104 St (J,Z)",Jamaica,Queens,Queens,2091,1064,591761,356.0,397.0
+4290,2023.0,"Woodhaven Blvd (J,Z)",Jamaica,Queens,Queens,1935,1136,557522,361.0,392.0
+4300,2023.0,85 St-Forest Pkwy (J),Jamaica,Queens,Queens,2914,1573,829926,311.0,372.0
+4310,2023.0,"75 St-Elderts Ln (J,Z)",Jamaica,Queens,Queens,1407,789,403508,399.0,408.0
+4320,2023.0,Cypress Hills (J),Jamaica,Other Brooklyn,Brooklyn,1016,497,286484,412.0,416.0
+4330,2023.0,"Crescent St (J,Z)",Jamaica,Other Brooklyn,Brooklyn,2360,2872,756318,347.0,305.0
+4340,2023.0,"Norwood Av (J,Z)",Jamaica,Other Brooklyn,Brooklyn,1508,1373,458742,394.0,382.0
+4350,2023.0,Cleveland St (J),Jamaica,Other Brooklyn,Brooklyn,1422,1432,440455,397.0,379.0
+4360,2023.0,"Van Siclen Av (J,Z)",Jamaica,Other Brooklyn,Brooklyn,1677,1623,515895,382.0,367.0
+4370,2023.0,Alabama Av (J),Jamaica,Other Brooklyn,Brooklyn,1205,1081,365995,406.0,396.0
+4390,2023.0,"Chauncey St (J,Z)",Jamaica,Other Brooklyn,Brooklyn,1895,2612,623164,368.0,321.0
+4400,2023.0,Halsey St (J),Jamaica,Other Brooklyn,Brooklyn,3847,5056,1253085,259.0,224.0
+4410,2023.0,"Gates Av (J,Z)",Jamaica,Other Brooklyn,Brooklyn,4512,5709,1458035,221.0,203.0
+4420,2023.0,Kosciuszko St (J),Jamaica,Other Brooklyn,Brooklyn,3643,5285,1214488,272.0,218.0
+4430,2023.0,"Myrtle Av (J,M,Z)",Jamaica,Other Brooklyn,Brooklyn,8209,10455,2654490,134.0,119.0
+4440,2023.0,"Flushing Av (J,M)",Jamaica,Other Brooklyn,Brooklyn,5217,5327,1614503,192.0,217.0
+4450,2023.0,"Lorimer St (J,M)",Jamaica,Other Brooklyn,Brooklyn,2792,3316,890789,320.0,287.0
+4460,2023.0,"Hewes St (J,M)",Jamaica,Other Brooklyn,Brooklyn,1849,2638,612920,373.0,319.0
+4470,2023.0,"Marcy Av (J,M,Z)",Jamaica,Other Brooklyn,Brooklyn,8867,11221,2864396,113.0,101.0
+4480,2023.0,Middle Village-Metropolitan Av (M),Myrtle Av,Queens,Queens,2774,1758,798449,321.0,356.0
+4490,2023.0,Fresh Pond Rd (M),Myrtle Av,Queens,Queens,4047,3107,1195169,247.0,297.0
+4500,2023.0,Forest Av (M),Myrtle Av,Queens,Queens,3108,2505,923548,296.0,326.0
+4510,2023.0,Seneca Av (M),Myrtle Av,Queens,Queens,2023,1933,617361,358.0,348.0
+4530,2023.0,Knickerbocker Av (M),Myrtle Av,Other Brooklyn,Brooklyn,2814,2754,862039,319.0,313.0
+4540,2023.0,Central Av (M),Myrtle Av,Other Brooklyn,Brooklyn,2711,2496,821947,326.0,327.0
+4550,2023.0,Canarsie-Rockaway Pkwy (L),Canarsie,Other Brooklyn,Brooklyn,2894,2298,861420,312.0,332.0
+4560,2023.0,East 105 St (L),Canarsie,Other Brooklyn,Brooklyn,2031,1577,602303,357.0,371.0
+4570,2023.0,New Lots Av (L),Canarsie,Other Brooklyn,Brooklyn,2307,2020,697822,350.0,344.0
+4580,2023.0,Livonia Av (L),Canarsie,Other Brooklyn,Brooklyn,1919,1855,590252,364.0,353.0
+4590,2023.0,Sutter Av (L),Canarsie,Other Brooklyn,Brooklyn,1585,1377,479262,390.0,381.0
+4600,2023.0,Atlantic Av (L),Canarsie,Other Brooklyn,Brooklyn,1152,1063,351212,409.0,398.0
+4620,2023.0,Bushwick Av-Aberdeen St (L),Canarsie,Other Brooklyn,Brooklyn,1726,1995,548179,380.0,345.0
+4630,2023.0,Wilson Av (L),Canarsie,Other Brooklyn,Brooklyn,3010,3416,952643,307.0,279.0
+4640,2023.0,Halsey St (L),Canarsie,Other Brooklyn,Brooklyn,5434,6048,1713746,185.0,191.0
+4660,2023.0,DeKalb Av (L),Canarsie,Other Brooklyn,Brooklyn,8574,10894,2772609,119.0,109.0
+4670,2023.0,Jefferson St (L),Canarsie,Other Brooklyn,Brooklyn,5875,10715,2075924,174.0,114.0
+4680,2023.0,Morgan Av (L),Canarsie,Other Brooklyn,Brooklyn,5220,8159,1769142,191.0,155.0
+4690,2023.0,Montrose Av (L),Canarsie,Other Brooklyn,Brooklyn,4979,7687,1683408,204.0,164.0
+4700,2023.0,Grand St (L),Canarsie,Other Brooklyn,Brooklyn,4744,5408,1499646,211.0,214.0
+4710,2023.0,Graham Av (L),Canarsie,Other Brooklyn,Brooklyn,6732,8370,2164641,156.0,152.0
+4730,2023.0,Bedford Av (L),Canarsie,Other Brooklyn,Brooklyn,23653,44011,8399477,25.0,15.0
+4740,2023.0,Flushing-Main St (7),Flushing (Queens),Queens,Queens,43226,53183,13876213,10.0,10.0
+4750,2023.0,Mets-Willets Point (7),Flushing (Queens),Queens,Queens,4514,11949,1818251,220.0,97.0
+4760,2023.0,111 St (7),Flushing (Queens),Queens,Queens,6349,8881,2098984,164.0,144.0
+4770,2023.0,103 St-Corona Plaza (7),Flushing (Queens),Queens,Queens,20679,21855,6460459,28.0,37.0
+4780,2023.0,Junction Blvd (7),Flushing (Queens),Queens,Queens,20384,28280,6720760,31.0,27.0
+4790,2023.0,90 St-Elmhurst Av (7),Flushing (Queens),Queens,Queens,13918,17089,4476908,64.0,58.0
+4800,2023.0,82 St-Jackson Hts (7),Flushing (Queens),Queens,Queens,8343,10975,2722243,130.0,108.0
+4820,2023.0,69 St (7),Flushing (Queens),Queens,Queens,4325,5338,1391674,229.0,216.0
+4830,2023.0,Woodside-61 St (7),Flushing (Queens),Queens,Queens,13225,15717,4222161,68.0,66.0
+4840,2023.0,52 St (7),Flushing (Queens),Queens,Queens,4449,4990,1402690,225.0,225.0
+4850,2023.0,46 St-Bliss St (7),Flushing (Queens),Queens,Queens,9157,10573,2903856,109.0,115.0
+4860,2023.0,40 St-Lowery St (7),Flushing (Queens),Queens,Queens,7058,7283,2189736,147.0,171.0
+4870,2023.0,33 St-Rawson St (7),Flushing (Queens),Queens,Queens,6194,2668,1714912,167.0,316.0
+4900,2023.0,Hunters Point Av (7),Flushing (Queens),Queens,Queens,3810,1252,1039399,264.0,387.0
+4910,2023.0,Vernon Blvd-Jackson Av (7),Flushing (Queens),Queens,Queens,11662,12179,3631659,81.0,94.0
+4920,2023.0,"Astoria-Ditmars Blvd (N,W)",Astoria,Queens,Queens,10425,10796,3234661,97.0,111.0
+4930,2023.0,"Astoria Blvd (N,W)",Astoria,Queens,Queens,7526,8036,2350512,142.0,157.0
+4940,2023.0,"30 Av (N,W)",Astoria,Queens,Queens,9607,10568,3015519,103.0,116.0
+4950,2023.0,"Broadway (N,W)",Astoria,Queens,Queens,8653,10393,2763230,118.0,121.0
+4960,2023.0,"36 Av (N,W)",Astoria,Queens,Queens,4677,5285,1475603,214.0,218.0
+4970,2023.0,"39 Av (N,W)",Astoria,Queens,Queens,2563,2831,805613,335.0,307.0
+4990,2023.0,"Court St (R)/Borough Hall (2,3,4,5)",Downtown Brooklyn Transfer,Brooklyn CBD,Brooklyn,20372,16601,6066699,32.0,61.0
+5000,2023.0,"Jay St-MetroTech (A,C,F,R)",Downtown Brooklyn Transfer,Brooklyn CBD,Brooklyn,24204,22215,7343495,24.0,36.0
+5010,2023.0,"Hoyt-Schermerhorn Sts (A,C,G)",Downtown Brooklyn Transfer,Brooklyn CBD,Brooklyn,8428,12072,2795555,126.0,96.0
+5020,2023.0,"DeKalb Av (B,Q,R)",Downtown Brooklyn Transfer,Brooklyn CBD,Brooklyn,13759,14315,4272247,65.0,78.0
+5030,2023.0,"Atlantic Av-Barclays Ctr (B,D,N,Q,R,2,3,4,5)",Downtown Brooklyn Transfer,Brooklyn CBD,Brooklyn,29183,40074,9583506,19.0,18.0
+5040,2023.0,"Prospect Park (B,Q,S)",Other Brooklyn Transfer,Other Brooklyn,Brooklyn,6489,9181,2150487,161.0,138.0
+5050,2023.0,"Franklin Av (2,3,4,5)/Botanic Garden (S)",Other Brooklyn Transfer,Other Brooklyn,Brooklyn,10092,13745,3312190,100.0,86.0
+5060,2023.0,"Franklin Av (C,S)",Other Brooklyn Transfer,Other Brooklyn,Brooklyn,3667,5102,1210340,270.0,223.0
+5070,2023.0,New Utrecht Av (N)/62 St (D),Other Brooklyn Transfer,Other Brooklyn,Brooklyn,3765,4472,1201167,266.0,243.0
+5080,2023.0,"4 Av (F,G)/9 St (R)",Other Brooklyn Transfer,Other Brooklyn,Brooklyn,8766,11204,2832325,115.0,103.0
+5090,2023.0,"Broadway Junction (A,C,J,L,Z)",Other Brooklyn Transfer,Other Brooklyn,Brooklyn,4905,7412,1647748,208.0,168.0
+5100,2023.0,"Myrtle-Wyckoff Avs (L,M)",Other Brooklyn Transfer,Other Brooklyn,Brooklyn,15276,20671,5009020,56.0,40.0
+5110,2023.0,Lorimer St (L)/Metropolitan Av (G),Other Brooklyn Transfer,Other Brooklyn,Brooklyn,10951,20646,3903034,90.0,41.0
+5120,2023.0,"Coney Island-Stillwell Av (D,F,N,Q)",Other Brooklyn Transfer,Other Brooklyn,Brooklyn,9353,15059,3220518,108.0,71.0
+5130,2023.0,"West 8 St-New York Aquarium (F,Q)",Other Brooklyn Transfer,Other Brooklyn,Brooklyn,1903,2780,640138,367.0,312.0
+5140,2023.0,"Queensboro Plaza (N,W,7)",Queens Transfer,Queens,Queens,10698,15649,3573523,92.0,68.0
+5150,2023.0,"74-Broadway (7)/Jackson Hts-Roosevelt Av (E,F,M,R)",Queens Transfer,Queens,Queens,43672,59507,14348691,9.0,8.0
+5160,2023.0,"Court Sq (E,G,M,7)",Queens Transfer,Queens,Queens,17116,19041,5381184,47.0,46.0
+5170,2023.0,"Sutphin Blvd-Archer Av-JFK Airport (E,J,Z)",Queens Transfer,Queens,Queens,19068,19819,5941974,35.0,43.0
+5180,2023.0,"Jamaica Center-Parsons-Archer (E,J,Z)",Queens Transfer,Queens,Queens,19529,13750,5715839,33.0,85.0
+9991,2023.0,OMNYSystemwide Adjustment,OMNYSystemwide Adjustment,OMNYSystemwide Adjustment,OMNYSystemwide Adj.,0,0,0,424.0,424.0
+424,,,,,,3625326,4237295,1151998158,,
