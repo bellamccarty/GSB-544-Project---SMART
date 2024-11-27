@@ -3050,8 +3050,19 @@ vertical-align: -.125em;
 <body>
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-  
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#countrywide-analysis-ntd-dataset" id="toc-countrywide-analysis-ntd-dataset" class="nav-link" data-scroll-target="#countrywide-analysis-ntd-dataset">2. Countrywide Analysis: NTD Dataset</a></li>
+  <li><a href="#nyc-transit-analysis-subway-and-bus-data" id="toc-nyc-transit-analysis-subway-and-bus-data" class="nav-link" data-scroll-target="#nyc-transit-analysis-subway-and-bus-data">3. NYC Transit Analysis: Subway and Bus Data</a></li>
+  <li><a href="#citibike-integration" id="toc-citibike-integration" class="nav-link" data-scroll-target="#citibike-integration">4. CitiBike Integration</a></li>
+  <li><a href="#recommendations" id="toc-recommendations" class="nav-link" data-scroll-target="#recommendations">5. Recommendations</a></li>
+  <li><a href="#ethical-considerations" id="toc-ethical-considerations" class="nav-link" data-scroll-target="#ethical-considerations">5.1 Ethical Considerations</a></li>
+  </ul>
+</nav>
 </div>
 <main class="content" id="quarto-document-content">
 
@@ -3084,7 +3095,232 @@ vertical-align: -.125em;
 </header>
 
 
-<p>testting</p>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>This analysis aims to provide actionable insights into improving public transportation systems by combining a countrywide perspective with a detailed study of New York City’s transit systems. We focus on three key areas: 1. <strong>Countrywide Transit Trends</strong> (NTD Dataset): Identify characteristics of successful transit systems. 2. <strong>NYC Transit Analysis</strong>: Evaluate subway and bus performance and bottlenecks. 3. <strong>CitiBike Integration</strong>: Assess CitiBike’s role in complementing public transit in NYC.</p>
+</section>
+<section id="countrywide-analysis-ntd-dataset" class="level1">
+<h1>2. Countrywide Analysis: NTD Dataset</h1>
+<section id="data-summary" class="level4">
+<h4 class="anchored" data-anchor-id="data-summary">2.1 Data Summary</h4>
+<p>We use the National Transit Database (NTD) dataset, which includes: - Operational metrics (e.g., expenses, ridership, maintenance costs). - Demographic information (e.g., urbanized area population). Our goal is to identify patterns of efficiency and fiscal responsibility across U.S. cities.</p>
+<div id="cell-6" class="cell" data-executetime="{&quot;end_time&quot;:&quot;2024-11-27T07:04:41.795141Z&quot;,&quot;start_time&quot;:&quot;2024-11-27T07:04:41.736633Z&quot;}" data-execution_count="5">
+<div class="cell-output cell-output-stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 132 entries, 0 to 131
+Data columns (total 34 columns):
+ #   Column                                        Non-Null Count  Dtype  
+---  ------                                        --------------  -----  
+ 0   agency                                        132 non-null    object 
+ 1   city                                          132 non-null    object 
+ 2   state                                         132 non-null    object 
+ 3   ntd_id                                        132 non-null    int64  
+ 4   organization_type                             132 non-null    object 
+ 5   reporter_type                                 132 non-null    object 
+ 6   report_year                                   132 non-null    int64  
+ 7   uace_code                                     78 non-null     float64
+ 8   uza_name                                      78 non-null     object 
+ 9   primary_uza_population                        78 non-null     float64
+ 10  voms                                          132 non-null    int64  
+ 11  general_fund                                  132 non-null    int64  
+ 12  income_tax                                    132 non-null    int64  
+ 13  sales_tax                                     132 non-null    int64  
+ 14  property_tax                                  132 non-null    int64  
+ 15  fuel_tax                                      132 non-null    int64  
+ 16  other_tax                                     132 non-null    int64  
+ 17  tolls                                         132 non-null    int64  
+ 18  other_funds                                   132 non-null    int64  
+ 19  reduced_funds                                 132 non-null    int64  
+ 20  total_funding                                 132 non-null    int64  
+ 21  agency_voms                                   132 non-null    int64  
+ 22  mode                                          132 non-null    object 
+ 23  mode_name                                     132 non-null    object 
+ 24  tos                                           132 non-null    object 
+ 25  mode_voms                                     132 non-null    int64  
+ 26  vehicle_operations                            132 non-null    int64  
+ 27  vehicle_maintenance                           132 non-null    int64  
+ 28  facility_maintenance                          132 non-null    int64  
+ 29  general_administration                        132 non-null    int64  
+ 30  reduced_reporter_expenses                     132 non-null    int64  
+ 31  total_expenses                                132 non-null    int64  
+ 32  purchased_transportation_reported_separately  132 non-null    int64  
+ 33  profit                                        132 non-null    int64  
+dtypes: float64(2), int64(23), object(9)
+memory usage: 35.2+ KB
+None
+             ntd_id  report_year     uace_code  primary_uza_population  \
+count    132.000000        132.0     78.000000            7.800000e+01   
+mean   20508.287879       2023.0  54836.115385            9.184145e+06   
+std      562.548787          0.0  23714.317994            9.552344e+06   
+min    20002.000000       2023.0     36.000000            5.183200e+04   
+25%    20078.000000       2023.0  45443.000000            3.147660e+05   
+50%    20206.000000       2023.0  63217.000000            9.488640e+05   
+75%    20948.000000       2023.0  63217.000000            1.942645e+07   
+max    22930.000000       2023.0  92674.000000            1.942645e+07   
+
+               voms  general_fund    income_tax     sales_tax  property_tax  \
+count    132.000000  1.320000e+02  1.320000e+02  1.320000e+02  1.320000e+02   
+mean     483.128788  7.127112e+07  1.557316e+05  6.678544e+05  1.580141e+07   
+std     1917.434141  3.074808e+08  1.789219e+06  4.061228e+06  7.427671e+07   
+min        1.000000  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00   
+25%        6.750000  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00   
+50%       14.000000  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00   
+75%       54.750000  3.691579e+06  0.000000e+00  0.000000e+00  0.000000e+00   
+max    10040.000000  1.591521e+09  2.055657e+07  2.684050e+07  3.881133e+08   
+
+       fuel_tax  ...   agency_voms    mode_voms  vehicle_operations  \
+count     132.0  ...    132.000000   132.000000        1.320000e+02   
+mean        0.0  ...    483.128788   126.159091        5.181990e+07   
+std         0.0  ...   1917.434141   569.021925        2.335786e+08   
+min         0.0  ...      1.000000     1.000000        0.000000e+00   
+25%         0.0  ...      6.750000     4.000000        0.000000e+00   
+50%         0.0  ...     14.000000     7.000000        0.000000e+00   
+75%         0.0  ...     54.750000    28.250000        3.489222e+06   
+max         0.0  ...  10040.000000  5384.000000        1.835650e+09   
+
+       vehicle_maintenance  facility_maintenance  general_administration  \
+count         1.320000e+02          1.320000e+02            1.320000e+02   
+mean          2.240912e+07          2.815107e+07            2.358339e+07   
+std           1.140806e+08          2.129964e+08            1.104249e+08   
+min           0.000000e+00          0.000000e+00            0.000000e+00   
+25%           0.000000e+00          0.000000e+00            0.000000e+00   
+50%           0.000000e+00          0.000000e+00            0.000000e+00   
+75%           9.401080e+05          1.375052e+05            1.092888e+06   
+max           1.045989e+09          2.363284e+09            1.014596e+09   
+
+       reduced_reporter_expenses  total_expenses  \
+count               1.320000e+02    1.320000e+02   
+mean                5.567998e+05    1.265203e+08   
+std                 8.787683e+05    6.360384e+08   
+min                 0.000000e+00    3.418800e+04   
+25%                 0.000000e+00    5.442070e+05   
+50%                 1.201725e+05    1.338485e+06   
+75%                 8.470408e+05    6.657242e+06   
+max                 5.445565e+06    6.047954e+09   
+
+       purchased_transportation_reported_separately        profit  
+count                                         132.0  1.320000e+02  
+mean                                            0.0 -2.278138e+07  
+std                                             0.0  4.825855e+08  
+min                                             0.0 -4.068319e+09  
+25%                                             0.0 -1.966364e+06  
+50%                                             0.0 -6.159165e+05  
+75%                                             0.0 -1.094995e+05  
+max                                             0.0  1.867130e+09  
+
+[8 rows x 25 columns]</code></pre>
+</div>
+</div>
+</section>
+<section id="clustering-analysis" class="level4">
+<h4 class="anchored" data-anchor-id="clustering-analysis">2.2 Clustering Analysis</h4>
+<p>Clustering was applied to group cities based on operational characteristics: - Input Features: Population, ridership, total expenses. - Method: K-Means Clustering.</p>
+</section>
+</section>
+<section id="nyc-transit-analysis-subway-and-bus-data" class="level1">
+<h1>3. NYC Transit Analysis: Subway and Bus Data</h1>
+<section id="data-summary-1" class="level4">
+<h4 class="anchored" data-anchor-id="data-summary-1">3.1 Data Summary</h4>
+<p>We analyze subway and bus ridership trends in NYC using data from the MTA. Key questions include: 1. How do ridership trends vary over time? 2. What are the busiest routes and times?</p>
+<div id="cell-11" class="cell" data-executetime="{&quot;end_time&quot;:&quot;2024-11-27T07:04:42.403611Z&quot;,&quot;start_time&quot;:&quot;2024-11-27T07:04:41.917989Z&quot;}" data-execution_count="7">
+<div class="cell-output cell-output-error">
+<div class="ansi-escaped-output">
+<pre><span class="ansi-red-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg ansi-bold">FileNotFoundError</span>                         Traceback (most recent call last)
+Cell <span class="ansi-green-fg ansi-bold">In[7], line 2</span>
+<span class="ansi-green-fg">      1</span> <span style="font-style:italic;color:rgb(95,135,135)"># Load NYC Transit data</span>
+<span class="ansi-green-fg ansi-bold">----&gt; 2</span> subway_data <span style="color:rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">pd</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">read_csv</span><span class="ansi-yellow-bg">(</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">&quot;</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">Subway_Ridership_Data_Cleaned.csv</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">&quot;</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-fg">      3</span> bus_data <span style="color:rgb(98,98,98)">=</span> pd<span style="color:rgb(98,98,98)">.</span>read_csv(<span style="color:rgb(175,0,0)">&quot;</span><span style="color:rgb(175,0,0)">MTA_Bus_Data_Clean.csv</span><span style="color:rgb(175,0,0)">&quot;</span>)
+<span class="ansi-green-fg">      5</span> <span style="font-style:italic;color:rgb(95,135,135)"># Inspect the datasets</span>
+
+File <span class="ansi-green-fg ansi-bold">~\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py:1026</span>, in <span class="ansi-cyan-fg">read_csv</span><span class="ansi-blue-fg ansi-bold">(filepath_or_buffer, sep, delimiter, header, names, index_col, usecols, dtype, engine, converters, true_values, false_values, skipinitialspace, skiprows, skipfooter, nrows, na_values, keep_default_na, na_filter, verbose, skip_blank_lines, parse_dates, infer_datetime_format, keep_date_col, date_parser, date_format, dayfirst, cache_dates, iterator, chunksize, compression, thousands, decimal, lineterminator, quotechar, quoting, doublequote, escapechar, comment, encoding, encoding_errors, dialect, on_bad_lines, delim_whitespace, low_memory, memory_map, float_precision, storage_options, dtype_backend)</span>
+<span class="ansi-green-fg">   1013</span> kwds_defaults <span style="color:rgb(98,98,98)">=</span> _refine_defaults_read(
+<span class="ansi-green-fg">   1014</span>     dialect,
+<span class="ansi-green-fg">   1015</span>     delimiter,
+<span class="ansi-green-fg ansi-bold">   (...)</span>
+<span class="ansi-green-fg">   1022</span>     dtype_backend<span style="color:rgb(98,98,98)">=</span>dtype_backend,
+<span class="ansi-green-fg">   1023</span> )
+<span class="ansi-green-fg">   1024</span> kwds<span style="color:rgb(98,98,98)">.</span>update(kwds_defaults)
+<span class="ansi-green-fg ansi-bold">-&gt; 1026</span> <span style="font-weight:bold;color:rgb(0,135,0)">return</span> <span class="ansi-yellow-bg">_read</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">filepath_or_buffer</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">kwds</span><span class="ansi-yellow-bg">)</span>
+
+File <span class="ansi-green-fg ansi-bold">~\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py:620</span>, in <span class="ansi-cyan-fg">_read</span><span class="ansi-blue-fg ansi-bold">(filepath_or_buffer, kwds)</span>
+<span class="ansi-green-fg">    617</span> _validate_names(kwds<span style="color:rgb(98,98,98)">.</span>get(<span style="color:rgb(175,0,0)">&quot;</span><span style="color:rgb(175,0,0)">names</span><span style="color:rgb(175,0,0)">&quot;</span>, <span style="font-weight:bold;color:rgb(0,135,0)">None</span>))
+<span class="ansi-green-fg">    619</span> <span style="font-style:italic;color:rgb(95,135,135)"># Create the parser.</span>
+<span class="ansi-green-fg ansi-bold">--&gt; 620</span> parser <span style="color:rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">TextFileReader</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">filepath_or_buffer</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">*</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">kwds</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-fg">    622</span> <span style="font-weight:bold;color:rgb(0,135,0)">if</span> chunksize <span style="font-weight:bold;color:rgb(175,0,255)">or</span> iterator:
+<span class="ansi-green-fg">    623</span>     <span style="font-weight:bold;color:rgb(0,135,0)">return</span> parser
+
+File <span class="ansi-green-fg ansi-bold">~\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py:1620</span>, in <span class="ansi-cyan-fg">TextFileReader.__init__</span><span class="ansi-blue-fg ansi-bold">(self, f, engine, **kwds)</span>
+<span class="ansi-green-fg">   1617</span>     <span style="color:rgb(0,135,0)">self</span><span style="color:rgb(98,98,98)">.</span>options[<span style="color:rgb(175,0,0)">&quot;</span><span style="color:rgb(175,0,0)">has_index_names</span><span style="color:rgb(175,0,0)">&quot;</span>] <span style="color:rgb(98,98,98)">=</span> kwds[<span style="color:rgb(175,0,0)">&quot;</span><span style="color:rgb(175,0,0)">has_index_names</span><span style="color:rgb(175,0,0)">&quot;</span>]
+<span class="ansi-green-fg">   1619</span> <span style="color:rgb(0,135,0)">self</span><span style="color:rgb(98,98,98)">.</span>handles: IOHandles <span style="color:rgb(98,98,98)">|</span> <span style="font-weight:bold;color:rgb(0,135,0)">None</span> <span style="color:rgb(98,98,98)">=</span> <span style="font-weight:bold;color:rgb(0,135,0)">None</span>
+<span class="ansi-green-fg ansi-bold">-&gt; 1620</span> <span style="color:rgb(0,135,0)">self</span><span style="color:rgb(98,98,98)">.</span>_engine <span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(0,135,0)" class="ansi-yellow-bg">self</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">_make_engine</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">f</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span style="color:rgb(0,135,0)" class="ansi-yellow-bg">self</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">engine</span><span class="ansi-yellow-bg">)</span>
+
+File <span class="ansi-green-fg ansi-bold">~\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py:1880</span>, in <span class="ansi-cyan-fg">TextFileReader._make_engine</span><span class="ansi-blue-fg ansi-bold">(self, f, engine)</span>
+<span class="ansi-green-fg">   1878</span>     <span style="font-weight:bold;color:rgb(0,135,0)">if</span> <span style="color:rgb(175,0,0)">&quot;</span><span style="color:rgb(175,0,0)">b</span><span style="color:rgb(175,0,0)">&quot;</span> <span style="font-weight:bold;color:rgb(175,0,255)">not</span> <span style="font-weight:bold;color:rgb(175,0,255)">in</span> mode:
+<span class="ansi-green-fg">   1879</span>         mode <span style="color:rgb(98,98,98)">+</span><span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(175,0,0)">&quot;</span><span style="color:rgb(175,0,0)">b</span><span style="color:rgb(175,0,0)">&quot;</span>
+<span class="ansi-green-fg ansi-bold">-&gt; 1880</span> <span style="color:rgb(0,135,0)">self</span><span style="color:rgb(98,98,98)">.</span>handles <span style="color:rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">get_handle</span><span class="ansi-yellow-bg">(</span>
+<span class="ansi-green-fg">   1881</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">f</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-fg">   1882</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">mode</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-fg">   1883</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">encoding</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">=</span><span style="color:rgb(0,135,0)" class="ansi-yellow-bg">self</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">options</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">get</span><span class="ansi-yellow-bg">(</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">&quot;</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">encoding</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">&quot;</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span style="font-weight:bold;color:rgb(0,135,0)" class="ansi-yellow-bg">None</span><span class="ansi-yellow-bg">)</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-fg">   1884</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">compression</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">=</span><span style="color:rgb(0,135,0)" class="ansi-yellow-bg">self</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">options</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">get</span><span class="ansi-yellow-bg">(</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">&quot;</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">compression</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">&quot;</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span style="font-weight:bold;color:rgb(0,135,0)" class="ansi-yellow-bg">None</span><span class="ansi-yellow-bg">)</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-fg">   1885</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">memory_map</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">=</span><span style="color:rgb(0,135,0)" class="ansi-yellow-bg">self</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">options</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">get</span><span class="ansi-yellow-bg">(</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">&quot;</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">memory_map</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">&quot;</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span style="font-weight:bold;color:rgb(0,135,0)" class="ansi-yellow-bg">False</span><span class="ansi-yellow-bg">)</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-fg">   1886</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">is_text</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">=</span><span class="ansi-yellow-bg">is_text</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-fg">   1887</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">errors</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">=</span><span style="color:rgb(0,135,0)" class="ansi-yellow-bg">self</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">options</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">get</span><span class="ansi-yellow-bg">(</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">&quot;</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">encoding_errors</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">&quot;</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">&quot;</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">strict</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">&quot;</span><span class="ansi-yellow-bg">)</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-fg">   1888</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">storage_options</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">=</span><span style="color:rgb(0,135,0)" class="ansi-yellow-bg">self</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">options</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">get</span><span class="ansi-yellow-bg">(</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">&quot;</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">storage_options</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">&quot;</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span style="font-weight:bold;color:rgb(0,135,0)" class="ansi-yellow-bg">None</span><span class="ansi-yellow-bg">)</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-fg">   1889</span> <span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-fg">   1890</span> <span style="font-weight:bold;color:rgb(0,135,0)">assert</span> <span style="color:rgb(0,135,0)">self</span><span style="color:rgb(98,98,98)">.</span>handles <span style="font-weight:bold;color:rgb(175,0,255)">is</span> <span style="font-weight:bold;color:rgb(175,0,255)">not</span> <span style="font-weight:bold;color:rgb(0,135,0)">None</span>
+<span class="ansi-green-fg">   1891</span> f <span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(0,135,0)">self</span><span style="color:rgb(98,98,98)">.</span>handles<span style="color:rgb(98,98,98)">.</span>handle
+
+File <span class="ansi-green-fg ansi-bold">~\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\common.py:873</span>, in <span class="ansi-cyan-fg">get_handle</span><span class="ansi-blue-fg ansi-bold">(path_or_buf, mode, encoding, compression, memory_map, is_text, errors, storage_options)</span>
+<span class="ansi-green-fg">    868</span> <span style="font-weight:bold;color:rgb(0,135,0)">elif</span> <span style="color:rgb(0,135,0)">isinstance</span>(handle, <span style="color:rgb(0,135,0)">str</span>):
+<span class="ansi-green-fg">    869</span>     <span style="font-style:italic;color:rgb(95,135,135)"># Check whether the filename is to be opened in binary mode.</span>
+<span class="ansi-green-fg">    870</span>     <span style="font-style:italic;color:rgb(95,135,135)"># Binary mode does not support &#39;encoding&#39; and &#39;newline&#39;.</span>
+<span class="ansi-green-fg">    871</span>     <span style="font-weight:bold;color:rgb(0,135,0)">if</span> ioargs<span style="color:rgb(98,98,98)">.</span>encoding <span style="font-weight:bold;color:rgb(175,0,255)">and</span> <span style="color:rgb(175,0,0)">&quot;</span><span style="color:rgb(175,0,0)">b</span><span style="color:rgb(175,0,0)">&quot;</span> <span style="font-weight:bold;color:rgb(175,0,255)">not</span> <span style="font-weight:bold;color:rgb(175,0,255)">in</span> ioargs<span style="color:rgb(98,98,98)">.</span>mode:
+<span class="ansi-green-fg">    872</span>         <span style="font-style:italic;color:rgb(95,135,135)"># Encoding</span>
+<span class="ansi-green-fg ansi-bold">--&gt; 873</span>         handle <span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(0,135,0)" class="ansi-yellow-bg">open</span><span class="ansi-yellow-bg">(</span>
+<span class="ansi-green-fg">    874</span> <span class="ansi-yellow-bg">            </span><span class="ansi-yellow-bg">handle</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-fg">    875</span> <span class="ansi-yellow-bg">            </span><span class="ansi-yellow-bg">ioargs</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">mode</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-fg">    876</span> <span class="ansi-yellow-bg">            </span><span class="ansi-yellow-bg">encoding</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">=</span><span class="ansi-yellow-bg">ioargs</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">encoding</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-fg">    877</span> <span class="ansi-yellow-bg">            </span><span class="ansi-yellow-bg">errors</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">=</span><span class="ansi-yellow-bg">errors</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-fg">    878</span> <span class="ansi-yellow-bg">            </span><span class="ansi-yellow-bg">newline</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">=</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">&quot;</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">&quot;</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-fg">    879</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-fg">    880</span>     <span style="font-weight:bold;color:rgb(0,135,0)">else</span>:
+<span class="ansi-green-fg">    881</span>         <span style="font-style:italic;color:rgb(95,135,135)"># Binary mode</span>
+<span class="ansi-green-fg">    882</span>         handle <span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(0,135,0)">open</span>(handle, ioargs<span style="color:rgb(98,98,98)">.</span>mode)
+
+<span class="ansi-red-fg ansi-bold">FileNotFoundError</span>: [Errno 2] No such file or directory: &#39;Subway_Ridership_Data_Cleaned.csv&#39;</pre>
+</div>
+</div>
+</div>
+</section>
+<section id="time-series-analysis-subway-ridership" class="level4">
+<h4 class="anchored" data-anchor-id="time-series-analysis-subway-ridership">3.2 Time Series Analysis: Subway Ridership</h4>
+<p>We perform time series analysis to predict future subway ridership trends.</p>
+</section>
+</section>
+<section id="citibike-integration" class="level1">
+<h1>4. CitiBike Integration</h1>
+<section id="data-summary-2" class="level4">
+<h4 class="anchored" data-anchor-id="data-summary-2">4.1 Data Summary</h4>
+<p>We integrate CitiBike data with transit data to assess how well CitiBike complements NYC transit.</p>
+</section>
+<section id="regression-weather-and-ride-volume" class="level4">
+<h4 class="anchored" data-anchor-id="regression-weather-and-ride-volume">4.2 Regression: Weather and Ride Volume</h4>
+<p>A regression model predicts CitiBike ride volume using weather data.</p>
+</section>
+</section>
+<section id="recommendations" class="level1">
+<h1>5. Recommendations</h1>
+<ol type="1">
+<li>Expand CitiBike stations near high-traffic subway stations.</li>
+<li>Optimize NYC bus routes based on clustering and geospatial data.</li>
+<li>Apply countrywide best practices (e.g., resource allocation strategies).</li>
+</ol>
+</section>
+<section id="ethical-considerations" class="level1">
+<h1>5.1 Ethical Considerations</h1>
+<p>We emphasize equitable access and environmental sustainability in all recommendations.</p>
+</section>
 
 </main>
 <!-- /main column -->
